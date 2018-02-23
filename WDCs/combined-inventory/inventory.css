@@ -1,0 +1,41 @@
+/*!
+ * Override Bootstrap defaults.  Not using less or sass.
+ */
+
+body {
+  background-color: #434a54;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+  margin: 20px 20px 20px 20px;
+  height: 57px;
+}
+
+label {
+  color: #f4f6f9;
+}
+
+input[type=text] {
+  margin-right: 5px;
+}
+
+.creds {
+  margin: 5px 1px 5px 1px;
+  position: relative;
+  left: -7px;
+}
+
+#user, #pass {
+  background-color: #f8f8f8;
+}
+
+#server {
+  background-color: #cbd0d8;
+}
+
+.btn:hover {
+  background-color: #666;
+}
+
+
