@@ -23,6 +23,13 @@ This means the WDC must be running in the same domain as the API it's pulling fr
 Customers with on-premises installations can place the WDC within the Jamf Pro Tomcat to avoid cross-domain issues.  Jamf Cloud customers will need to address the cross-domain restriction, one such way would be to run a CORS proxy. 
 
 
+### Connecting to JamfPro via Direct Database Access
+
+This document contains instructions to connect to a JamfPro database directly for use with Tableau.  Great care and consideration should be taken before doing this as allowing access to the JamfPro database can be a security risk.
+
+  + [direct db connection](https://github.com/jamf/TableauIntegrations/tree/master/Docs/Tableau_MySQL_JamfPro.pdf)
+
+
 ### Examples
 
 ### Tableau Web Data Connector
